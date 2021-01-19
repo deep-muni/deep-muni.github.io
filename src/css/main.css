@@ -1,0 +1,82 @@
+.main{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__name{
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+    text-shadow: -50px -50px 20px #474747;
+    animation: skew 2s ease-in-out infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    display: inline-block;
+    letter-spacing: 10px;
+    padding-top: 75px;
+}
+
+.main__icon-container{
+    width: 500px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.main__icon{
+    position: relative;
+    transition: 300ms linear;
+}
+
+.main__tooltip{
+    font-size: 15px;
+    display: block;
+    margin: 2px;
+    letter-spacing: 2px;
+}
+
+.main__icon a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+}
+
+.main__icon:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes skew {
+    0% {
+        transform: skewX(20deg);
+    }
+
+    100% {
+        transform: skewX(-20deg);
+    }
+}
