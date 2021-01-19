@@ -1,9 +1,10 @@
 import './App.css';
+import Main from './components/main';
 
 const App = () => {
     return (
         <div className="app">
-          Deep Muni
+        	<Main />
         </div>
     );
 };
