@@ -8,7 +8,8 @@ const Main = () => {
 
     const personalDetails = {
         name: "Deep Muni",
-        email: "deep.muni94@gmail.com"
+        email: "deep.muni94@gmail.com",
+        title: "Full Stack Developer"
     }
 
     const links = [
@@ -22,6 +23,9 @@ const Main = () => {
         <div className="main" id="section-home">
             <div className="main__name-container">
                 <p className="main__name">{personalDetails.name}</p>
+            </div>
+            <div className="main__title-container">
+                <p className="main__title">{personalDetails.title}</p>
             </div>
             <div className="main__icon-container">
                 {
