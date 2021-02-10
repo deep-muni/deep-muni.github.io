@@ -1,51 +1,60 @@
-.main{
+.main {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
+    padding: 0 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
-.main__name{
+.main__name-container {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    transition: 200ms ease-in-out;
+}
+
+.main__name {
     color: #ffffff;
     font-size: 100px;
-    line-height: 110px;
+    line-height: 100px;
     font-weight: 600;
-    text-align: center;
+    letter-spacing: 10px;
     font-family: "Lucida Console", monospace;
     text-shadow: -50px -50px 20px #474747;
     animation: skew 2s ease-in-out infinite;
     transform: skew(20deg);
     animation-direction: alternate;
-    display: inline-block;
-    letter-spacing: 10px;
-    padding-top: 75px;
+    transition: 200ms ease-in-out;
 }
 
-.main__icon-container{
-    width: 500px;
+.main__icon-container {
+    width: 700px;
     margin: 50px auto 0;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     justify-items: center;
 }
 
-.main__icon{
+.main__icon {
+    width: 25%;
     position: relative;
     transition: 300ms linear;
+    display: flex;
+    justify-content: center;
 }
 
-.main__tooltip{
+.main__tooltip {
     font-size: 15px;
     display: block;
     margin: 2px;
     letter-spacing: 2px;
 }
 
-.main__icon a{
+.main__icon a {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +63,7 @@
     font-size: 0;
 }
 
-.main__icon:hover{
+.main__icon:hover {
     color: #ffffff;
     cursor: pointer;
 }
@@ -79,4 +88,63 @@
     100% {
         transform: skewX(-20deg);
     }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .main__name-container {
+        width: 500px;
+    }
+
+    .main__name {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .main__icon-container {
+        width: 500px;
+    }
+
+    .main__icon {
+        width: 50%;
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main {
+        padding: 0 10px;
+    }
+
+    .main__name-container {
+        width: 375px;
+    }
+
+    .main__name {
+        text-shadow: 0 -50px 20px #474747;
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+    .main__icon-container {
+        width: 375px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .main {
+        padding: 0 5px;
+    }
+
+    .main__name-container {
+        width: 325px;
+    }
+
+    .main__name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
 }
