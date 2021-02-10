@@ -30,17 +30,42 @@
     transition: 200ms ease-in-out;
 }
 
+.main__title-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.main__title {
+    display: inline-block;
+    padding: 0 3px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: "Lucida Console", monospace;
+    color: #ffffff;
+    overflow: hidden;
+    border-right: 2px solid #000000;
+    white-space: nowrap;
+    animation: title 3.5s steps(30, end), cursor 750ms step-end infinite;
+    transition: 200ms ease-in-out;
+}
+
 .main__icon-container {
     width: 700px;
-    margin: 50px auto 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-items: center;
 }
 
-.main__icon {
+.main__icon-wrapper {
     width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__icon {
     position: relative;
     transition: 300ms linear;
     display: flex;
@@ -72,9 +97,11 @@
     0% {
         background-position: 0 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0 50%;
     }
@@ -90,8 +117,27 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@keyframes title {
+    from {
+        width: 0
+    }
 
+    to {
+        width: 100%
+    }
+}
+
+@keyframes cursor {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #000000
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .main__name-container {
         width: 500px;
     }
@@ -101,18 +147,21 @@
         line-height: 70px;
     }
 
+    .main__title {
+        font-size: 25px;
+    }
+
     .main__icon-container {
         width: 500px;
     }
 
-    .main__icon {
+    .main__icon-wrapper {
         width: 50%;
         margin: 30px 0;
     }
 }
 
 @media only screen and (max-width: 600px) {
-
     .main {
         padding: 0 10px;
     }
@@ -127,13 +176,16 @@
         font-size: 50px;
     }
 
+    .main__title {
+        font-size: 20px;
+    }
+
     .main__icon-container {
         width: 375px;
     }
 }
 
 @media only screen and (max-width: 400px) {
-
     .main {
         padding: 0 5px;
     }
@@ -147,4 +199,7 @@
         line-height: 40px;
     }
 
+    .main__title {
+        font-size: 18px;
+    }
 }

@@ -8,7 +8,8 @@ const Main = () => {
 
     const personalDetails = {
         name: "Deep Muni",
-        email: "deep.muni94@gmail.com"
+        email: "deep.muni94@gmail.com",
+        title: "Full Stack Developer"
     }
 
     const links = [
@@ -23,21 +24,26 @@ const Main = () => {
             <div className="main__name-container">
                 <p className="main__name">{personalDetails.name}</p>
             </div>
+            <div className="main__title-container">
+                <p className="main__title">{personalDetails.title}</p>
+            </div>
             <div className="main__icon-container">
                 {
                     links.map(link => {
                         return (
-                            <Tooltip
-                                title={<span className="main__tooltip">{link.name}</span>}
-                                arrow key={link.index}
-                                TransitionComponent={Zoom}>
-                                <div className="main__icon">
-                                    {
-                                        React.createElement(link.tagName, {style: {fontSize : "45px"}})
-                                    }
-                                    <a href={link.url} target="_blank" rel="noopener noreferrer">A</a>
-                                </div>
-                            </Tooltip>
+                            <div className="main__icon-wrapper">
+                                <Tooltip
+                                    title={<span className="main__tooltip">{link.name}</span>}
+                                    arrow key={link.index}
+                                    TransitionComponent={Zoom}>
+                                    <div className="main__icon">
+                                        {
+                                            React.createElement(link.tagName, {style: {fontSize : "45px"}})
+                                        }
+                                        <a href={link.url} target="_blank" rel="noopener noreferrer">A</a>
+                                    </div>
+                                </Tooltip>
+                            </div>
                         );
                     })
                 }
