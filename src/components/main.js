@@ -27,17 +27,19 @@ const Main = () => {
                 {
                     links.map(link => {
                         return (
-                            <Tooltip
-                                title={<span className="main__tooltip">{link.name}</span>}
-                                arrow key={link.index}
-                                TransitionComponent={Zoom}>
-                                <div className="main__icon">
-                                    {
-                                        React.createElement(link.tagName, {style: {fontSize : "45px"}})
-                                    }
-                                    <a href={link.url} target="_blank" rel="noopener noreferrer">A</a>
-                                </div>
-                            </Tooltip>
+                            <div className="main__icon-wrapper">
+                                <Tooltip
+                                    title={<span className="main__tooltip">{link.name}</span>}
+                                    arrow key={link.index}
+                                    TransitionComponent={Zoom}>
+                                    <div className="main__icon">
+                                        {
+                                            React.createElement(link.tagName, {style: {fontSize : "45px"}})
+                                        }
+                                        <a href={link.url} target="_blank" rel="noopener noreferrer">A</a>
+                                    </div>
+                                </Tooltip>
+                            </div>
                         );
                     })
                 }
