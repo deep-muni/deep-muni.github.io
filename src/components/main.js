@@ -1,8 +1,9 @@
 import React from 'react';
 import '../css/main.css';
-import {GitHub, LinkedIn, Email, GetApp} from '@material-ui/icons';
+import {GitHub, LinkedIn, Email} from '@material-ui/icons';
 import {Tooltip, Zoom} from "@material-ui/core";
 import Resume from "../raw/Resume.pdf";
+import DescriptionIcon from '@material-ui/icons/Description';
 
 const Main = () => {
 
@@ -15,7 +16,7 @@ const Main = () => {
     const links = [
         {index: 0, name: "GitHub", tagName: GitHub, url: "https://github.com/deep-muni/"},
         {index: 1, name: "LinkedIn", tagName: LinkedIn, url: "https://www.linkedin.com/in/deep-muni-775942bb/"},
-        {index: 2, name: "Resume", tagName: GetApp, url: Resume},
+        {index: 2, name: "Resume", tagName: DescriptionIcon, url: Resume},
         {index: 3, name: "Email", tagName: Email, url: "mailto:" + personalDetails.email},
     ];
 
