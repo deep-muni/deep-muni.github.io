@@ -46,7 +46,7 @@
     overflow: hidden;
     border-right: 2px solid #000000;
     white-space: nowrap;
-    animation: title 3.5s steps(30, end), cursor 750ms step-end infinite;
+    animation: title 3.5s steps(30, end) alternate infinite, cursor 750ms step-end infinite;
     transition: 200ms ease-in-out;
 }
 
