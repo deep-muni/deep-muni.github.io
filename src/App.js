@@ -1,14 +1,15 @@
 import './App.css';
 import Main from './components/main';
 import Experience from "./components/experience";
+import { hot } from 'react-hot-loader';
 
 const App = () => {
     return (
         <div className="app">
         	<Main />
-        	<Experience />
+        	{/*<Experience />*/}
         </div>
     );
 };
 
-export default App;
+export default hot(module)(App);
