@@ -14,6 +14,7 @@ const Experience = () => {
             designation: "Application Development Analyst",
             type: "Full-Time",
             logo: Accenture,
+            url: "https://www.accenture.com/in-en/accenture-solutions-private",
             duration: {
                 current: false,
                 joining: {day: "30", month: "August", year: "2016"},
@@ -25,6 +26,7 @@ const Experience = () => {
             designation: "Associate UI Developer",
             type: "Full-Time",
             logo: MediaNet,
+            url: "https://www.media.net/",
             duration: {
                 current: false,
                 joining: {day: "11", month: "March", year: "2019"},
@@ -36,6 +38,7 @@ const Experience = () => {
             designation: "Graduate Teaching Assistant",
             type: "Part-Time",
             logo: Dalhousie,
+            url: "https://www.dal.ca/",
             duration: {
                 current: false,
                 joining: {day: "01", month: "September", year: "2020"},
@@ -47,6 +50,7 @@ const Experience = () => {
             designation: "IT Analyst/Developer",
             type: "Internship",
             logo: CRA,
+            url: "https://www.canada.ca/en/revenue-agency.html",
             duration: {
                 current: false,
                 joining: {day: "11", month: "January", year: "2021"},
@@ -58,6 +62,7 @@ const Experience = () => {
             designation: "IT Developer",
             type: "Full-Time",
             logo: CRA,
+            url: "https://www.canada.ca/en/revenue-agency.html",
             duration: {
                 current: true,
                 joining: {day: "03", month: "May", year: "2021"},
@@ -72,21 +77,23 @@ const Experience = () => {
                 {
                     workHistory.map((position, index) => {
                         return(
-                            <div className="exp__position">
+                            <div className="exp__position" key={index}>
+                                <a href={position.url} target="__blank" rel="noopener noreferrer"/>
                                 <div className="exp__positionLogo">
                                     {
                                         React.createElement(position.logo)
                                     }
                                 </div>
                                 <div className="exp__positionDetails">
-                                    <p>{position.companyName}</p>
-                                    <p>{position.designation}</p>
-                                    <p><span>{position.duration.joining.month}  {position.duration.joining.year} - </span>
-                                    {
-                                        position.duration.current ? <span>Present</span> : <span>{position.duration.leaving.month}  {position.duration.leaving.year}</span>
-                                    }
+                                    <p className="exp__duration">
+                                        <span>{position.duration.joining.month}  {position.duration.joining.year} - </span>
+                                        {
+                                            position.duration.current ? <span>Present</span> : <span>{position.duration.leaving.month}  {position.duration.leaving.year}</span>
+                                        }
                                     </p>
-                                    <p>{position.type}</p>
+                                    <p className="exp__company">{position.companyName}</p>
+                                    <p className="exp__designation">{position.designation}</p>
+                                    <p className="exp__type">{position.type}</p>
                                 </div>
                             </div>
                         );

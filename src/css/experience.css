@@ -2,6 +2,87 @@
     padding: 50px;
 }
 
+.exp__history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.exp__position {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 50px 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px #6e5f5f;
+    transition: 0.5s ease-in-out;
+}
+
+.exp__position:hover {
+    box-shadow: 15px 15px 15px 7px #6e5f5f;
+}
+
+.exp__position a{
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.exp__positionLogo {
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    background: #23a6d5;
+    border-radius: 20px 20px 0 0;
+    transition: 0.5s ease-in-out;
+}
+
+.exp__position:hover .exp__positionLogo{
+    background: #0d8573;
+}
+
 .logo {
-    width: 200px;
+    width: 300px;
+}
+
+.logo .text {
+    fill: #000000;
+}
+
+.accenture .symbol {
+    fill: #a100ff;
+}
+
+.mediaNet .symbol {
+    fill: #e94555;
+}
+
+.dalhousie .symbol {
+    fill: #eaa700;
+}
+
+.cra .symbol {
+    fill: #ff0000;
+}
+
+.exp__positionDetails {
+    padding: 15px;
+}
+
+.exp__duration {
+    text-align: right;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.exp__company {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.exp__designation {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
 }
