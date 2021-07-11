@@ -37,14 +37,17 @@ module.exports = {
                 use: ["style-loader", "css-loader"]
             },
             {
-                test: /\.(png|jpg|pdf|svg)$/,
+                test: /\.(png|jpg)$/,
                 exclude: /(node_modules)/,
-                use: ["url-loader", "file-loader"]
+                use: ["url-loader"]
             },
             {
-                test: /\.svg$/,
+                test: /\.(pdf)$/,
                 exclude: /(node_modules)/,
-                use: ["@svgr/webpack"]
+                loader: "file-loader",
+                options: {
+                    name: 'Resume-Deep.pdf'
+                }
             }
         ]
     }

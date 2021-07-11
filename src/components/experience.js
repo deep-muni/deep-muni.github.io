@@ -1,10 +1,9 @@
 import React from 'react';
 import '../css/experience.css';
-import { ReactComponent as Accenture } from '../raw/Accenture.svg';
-import { ReactComponent as MediaNet } from '../raw/MediaNet.svg';
-import { ReactComponent as Dalhousie } from '../raw/Dalhousie.svg';
-import { ReactComponent as CRA } from '../raw/CRA.svg';
-
+import Accenture from '../raw/Accenture';
+import MediaNet from '../raw/MediaNet';
+import Dalhousie from '../raw/Dalhousie';
+import CRA from '../raw/CRA';
 
 const Experience = () => {
 
