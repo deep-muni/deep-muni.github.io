@@ -1,6 +1,7 @@
 import './App.css';
 import Main from './components/main';
 import Experience from "./components/experience";
+import { hot } from 'react-hot-loader';
 
 const App = () => {
     return (
@@ -11,4 +12,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default hot(module)(App);
