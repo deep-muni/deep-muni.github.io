@@ -30,9 +30,9 @@ const Main = () => {
             </div>
             <div className="main__icon-container">
                 {
-                    links.map(link => {
+                    links.map((link, index) => {
                         return (
-                            <div className="main__icon-wrapper">
+                            <div className="main__icon-wrapper" key={index}>
                                 <Tooltip
                                     title={<span className="main__tooltip">{link.name}</span>}
                                     arrow key={link.index}
