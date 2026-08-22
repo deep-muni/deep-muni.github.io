@@ -1,0 +1,180 @@
+1:"$Sreact.fragment"
+2:I[50898,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"AppQueryProvider"]
+3:I[99845,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"ChakraProvider"]
+4:I[47224,["/_next/static/chunks/3mu1lmqnnnu08.js"],"default"]
+5:I[97793,["/_next/static/chunks/3mu1lmqnnnu08.js"],"default"]
+7:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"ViewportBoundary"]
+d:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"MetadataBoundary"]
+f:I[31953,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"default",1]
+:HL["/_next/static/chunks/17k0j0q7xz_ww.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/motterdam-s.p.3cb6h9h5y59kx.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/chunks/172yomp04nu72.css","style"]
+:HL["/_next/static/chunks/1n1od0-sh9hjl.css","style"]
+a:X
+0:{"P":null,"c":["","blog","stacked-prs-with-gitbutler-and-claude-code"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["blogId","stacked-prs-with-gitbutler-and-claude-code","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17k0j0q7xz_ww.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2lqyh-z3b-acj.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1qfd5hjalpx2-.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable signaturefont_fafb9eb7-module__JH1FEa__variable","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/172yomp04nu72.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1n1od0-sh9hjl.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1ds0rq-k9b_ng.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3os7go8we-cxw.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/31o3y_ue9idcs.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17k0j0q7xz_ww.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qkSacUBbmEehj7f-iYup0"}
+10:I[75341,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Box"]
+11:I[91976,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Navbar"]
+12:I[14028,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Flex"]
+13:I[11219,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],""]
+14:I[60970,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"HStack"]
+15:I[6818,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Text"]
+16:I[82876,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Heading"]
+17:I[60302,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"SkillBadge"]
+18:I[80257,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Image"]
+19:I[29290,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogMarkdown"]
+a:C
+1a:T1d4f,
+## The Problem with Monolithic Pull Requests
+
+When implementing a large, architectural feature across a codebase, the default tendency is to work inside a single feature branch and open one massive Pull Request (PR) at the end.
+
+This approach creates significant engineering friction:
+
+1. **Review Fatigue**: A PR touching 30 files with over 1,200 lines of diff is rarely reviewed thoroughly. Reviewers tend to skim or delay reviewing it for days because it requires too much uninterrupted context.
+2. **Delayed Feedback on Foundation**: If your database schema or domain modeling has a flaw, you discover it only after building the services, API layer, and UI on top of it.
+3. **Merge Conflict Hell**: The longer a large feature branch lives, the more it diverges from the active `main` branch, resulting in painful rebases.
+
+The solution is **Stacked Pull Requests**: breaking a single large feature into a sequential chain of small, self-contained PRs where each PR builds on the previous one.
+
+![Stacked PRs with GitButler and Claude Code Workflow](/images/blogs/gitbutler-stacked-prs-architecture.svg)
+
+---
+
+## Step 1: Spec Slicing with Claude Code
+
+Before writing code, the feature must be decomposed into logical, incremental layers. I use Claude Code to take the overall technical specification and slice it into isolated boundaries:
+
+```
+[Overall Feature Spec]
+       |
+       +--> Slice 1: Data Contracts, Types, and Database Migrations
+       +--> Slice 2: Core Domain Logic and Service Layer
+       +--> Slice 3: API Endpoints, Validation, and Integration Tests
+       +--> Slice 4: Frontend UI Components and State Wiring
+```
+
+### Why Spec Slicing Works
+Each slice represents a verifiable milestone with clear acceptance criteria:
+- **Slice 1** establishes the shared contracts and type definitions without implementation noise.
+- **Slice 2** implements business rules and unit tests on top of those types.
+- **Slice 3** exposes the functionality over HTTP endpoints.
+- **Slice 4** builds the user interface against the tested APIs.
+
+Because each slice is typically between 150 and 300 lines of code, code reviews become fast and focused.
+
+---
+
+## Step 2: Virtual Branches with GitButler
+
+In standard Git, working across multiple related branches simultaneously is clumsy. You constantly have to run `git stash`, `git checkout`, and rebase local branches against one another.
+
+GitButler rethinks this with the concept of **Virtual Branches**.
+
+### How GitButler Works
+Instead of locking your working directory to a single Git branch at a time, GitButler allows you to have multiple active branch lanes concurrently in the same workspace.
+
+```
+Working Directory
+  ├── Unassigned Changes (modified files & hunks)
+  ├── Lane 1: feat/part-1-schemas    --> tracks gitbutler/part-1-schemas
+  ├── Lane 2: feat/part-2-services   --> tracks gitbutler/part-2-services
+  └── Lane 3: feat/part-3-endpoints  --> tracks gitbutler/part-3-endpoints
+```
+
+1. **Simultaneous Working Lanes**: You can write code for the API layer while simultaneously tweaking a schema type. GitButler lets you drag and drop specific file diffs or individual hunks into their respective branch lane.
+2. **No Context Switching Overhead**: You never need to stash changes or switch branch checkouts to commit a quick fix to an earlier layer in your stack.
+3. **Direct Remote Push**: Each virtual branch can be pushed directly to your remote Git repository as an independent branch.
+
+![GitButler Virtual Branches Workspace in Action](/images/blogs/gitbutler-live-demo.svg)
+
+---
+
+## Step 3: Managing Stacked PRs in Azure DevOps
+
+Platforms like GitHub have third-party CLI tools (such as Graphite or Aviator) for automated stacking. In **Azure DevOps (ADO)**, native stacked PR support is not built in, so we manage the stack hierarchy cleanly by setting the target base branches.
+
+![Azure DevOps Stacked PR Flow](/images/blogs/stacked-pr-azure-devops-flow.svg)
+
+### Setting Up the Branch Stack in Azure DevOps
+
+When creating PRs in Azure DevOps, point each PR to its immediate predecessor instead of targeting `main`:
+
+| Pull Request | Source Branch | Target Base Branch | Scope of Review | Approximate Size |
+| :--- | :--- | :--- | :--- | :--- |
+| **PR 1** | `feat/part-1-schemas` | `main` | Types, schemas, and migrations | ~180 LOC |
+| **PR 2** | `feat/part-2-services` | `feat/part-1-schemas` | Core business logic and unit tests | ~240 LOC |
+| **PR 3** | `feat/part-3-endpoints` | `feat/part-2-services` | API routes and controllers | ~210 LOC |
+| **PR 4** | `feat/part-4-ui-wiring` | `feat/part-3-endpoints` | Frontend components and hooks | ~230 LOC |
+
+### Why This Is Essential for Reviewers
+Because PR 2 targets `feat/part-1-schemas`, Azure DevOps displays **only the diff between part-2 and part-1** (240 lines), rather than the cumulative 420 lines from `main`.
+
+Reviewers can review PR 1 and PR 2 in parallel without seeing duplicate changes or being overwhelmed by the full feature diff.
+
+---
+
+## The Merge Cascade: Landing Stacked PRs in Production
+
+When code reviews are approved and CI tests pass, the stack is merged sequentially down to `main`:
+
+```
+[PR 1: Merged into main]
+           |
+           v (Update base of PR 2 to main)
+[PR 2: Merged into main]
+           |
+           v (Update base of PR 3 to main)
+[PR 3: Merged into main]
+           |
+           v (Update base of PR 4 to main)
+[PR 4: Merged into main]
+```
+
+### The Step-by-Step Merge Sequence
+
+1. **Merge PR 1 into `main`**:
+   - Complete PR 1 in Azure DevOps using your repository's standard merge strategy (such as Squash or Semi-Linear merge).
+2. **Retarget PR 2 to `main`**:
+   - Edit PR 2 in Azure DevOps and change its target branch from `feat/part-1-schemas` to `main`.
+   - Azure DevOps will automatically recompute the diff against `main`. Because the changes from part-1 are already merged into `main`, PR 2 will still only show its own isolated changes.
+3. **Pull `main` into Remaining Local Branches**:
+   - In GitButler or your terminal, rebase or merge `main` into your remaining branch lanes so your local workspace stays synchronized.
+4. **Repeat for PR 3 and PR 4**:
+   - Continue the cascade until the entire stack has safely landed in `main`.
+
+---
+
+## Key Benefits Observed in Practice
+
+Adopting this stacked workflow with Claude Code and GitButler on complex features delivered concrete improvements:
+
+- **Review Turnaround**: Reviews dropped from an average of 3 to 4 days down to a few hours because each PR takes under 10 minutes to review.
+- **Architectural Alignment**: Teammates caught a missing database index in PR 1 before PR 3 and PR 4 were even ready for review, preventing costly rework.
+- **Cleaner Git History**: Each commit in `main` represents a focused, bisectable unit of work rather than an opaque 1,500-line monolith commit.
+- **Unblocked Development**: You can continue building higher layers (UI, tests) without waiting for earlier PRs to merge first.
+
+---
+
+## Summary Checklist for Stacked PRs
+
+- **Slice the Spec First**: Use Claude Code to divide the feature into 3 to 5 logical architectural layers before coding.
+- **Use Virtual Branches**: Assign file diffs to separate GitButler lanes to avoid stash and checkout friction.
+- **Set Incremental Base Branches**: In Azure DevOps, target each PR to its predecessor branch to keep diffs isolated.
+- **Cascade the Merges**: Once a base PR lands in `main`, retarget the next PR in the stack to `main` and continue down the chain.
+6:["$","$L10",null,{"minH":"100vh","children":[["$","$L11",null,{}],["$","$L10",null,{"as":"main","minH":"80vh","pt":"20","pb":"16","children":["$","$L10",null,{"as":"div","maxW":"4xl","mx":"auto","px":{"base":"5","md":"8","lg":"12"},"w":"100%","className":"$undefined","children":["$","article",null,{"className":"blog-detail-module-scss-module__o_uq4a__blogContainer","children":[["$","$L12",null,{"justify":"flex-start","align":"center","mb":"8","className":"blog-detail-module-scss-module__o_uq4a__topBar","children":["$","$L13",null,{"href":"/blog","className":"blog-detail-module-scss-module__o_uq4a__backNav","children":[["$","svg",null,{"width":"16","height":"16","viewBox":"0 0 16 16","fill":"currentColor","children":["$","path",null,{"d":"M11.03 1.97a.75.75 0 0 1 0 1.06L5.56 8.5l5.47 5.47a.75.75 0 0 1-1.06 1.06l-6-6a.75.75 0 0 1 1.06 0z"}]}],"Back to all blogs"]}]}],["$","$L10",null,{"as":"header","className":"blog-detail-module-scss-module__o_uq4a__header","children":[["$","$L14",null,{"gap":"3","fontFamily":"mono","fontSize":"xs","className":"blog-detail-module-scss-module__o_uq4a__metaRow","wrap":"wrap","children":[["$","$L15",null,{"children":["Published on ","2026-08-22"]}],["$","$L15",null,{"color":"gray.600","children":"•"}],["$","$L15",null,{"className":"blog-detail-module-scss-module__o_uq4a__readingTime","children":"11 min read"}]]}],["$","$L16",null,{"as":"h1","fontSize":{"base":"2xl","md":"4xl","lg":"5xl"},"fontWeight":"800","lineHeight":"1.25","letterSpacing":"-0.025em","className":"blog-detail-module-scss-module__o_uq4a__title","children":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps"}],["$","$L15",null,{"fontSize":{"base":"md","md":"lg"},"lineHeight":"1.6","className":"blog-detail-module-scss-module__o_uq4a__excerpt","children":"How to break down large features into reviewable stacked PRs using Claude Code spec slicing, GitButler virtual branches, and a manual merge cascade in Azure DevOps."}],["$","$L12",null,{"wrap":"wrap","gap":"2","className":"blog-detail-module-scss-module__o_uq4a__tags","children":[["$","$L17","Git",{"name":"Git"}],["$","$L17","GitButler",{"name":"GitButler"}],["$","$L17","Claude Code",{"name":"Claude Code"}],["$","$L17","Azure DevOps",{"name":"Azure DevOps"}],["$","$L17","DevOps",{"name":"DevOps"}],["$","$L17","Code Review",{"name":"Code Review"}],["$","$L17","Productivity",{"name":"Productivity"}]]}],["$","$L12",null,{"align":"center","gap":"3","className":"blog-detail-module-scss-module__o_uq4a__authorCard","children":[["$","$L12",null,{"w":"10","h":"10","borderRadius":"full","align":"center","justify":"center","fontWeight":"bold","fontFamily":"mono","fontSize":"sm","flexShrink":0,"className":"blog-detail-module-scss-module__o_uq4a__avatar","children":"DM"}],["$","$L10",null,{"className":"blog-detail-module-scss-module__o_uq4a__authorInfo","children":[["$","$L15",null,{"fontWeight":"semibold","fontSize":"sm","className":"blog-detail-module-scss-module__o_uq4a__authorName","children":"Deep Muni"}],["$","$L15",null,{"fontSize":"xs","fontFamily":"mono","className":"blog-detail-module-scss-module__o_uq4a__authorRole","children":"Senior Software Engineer"}]]}]]}]]}],["$","$L10",null,{"className":"blog-detail-module-scss-module__o_uq4a__coverImageWrapper","mb":"10","borderRadius":"2xl","overflow":"hidden","children":["$","$L18",null,{"src":"/images/blogs/gitbutler-stacked-prs-architecture.svg","alt":"Stacked PRs with GitButler and Claude Code Architecture Diagram","width":900,"height":506,"priority":true,"unoptimized":true}]}],["$","$L10",null,{"mb":"12","children":["$","$L19",null,{"content":"$1a"}]}],"$L1b","$L1c","$L1d"]}]}]}],"$L1e"]}]
+1f:I[17222,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogShare"]
+20:I[33159,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"SimpleGrid"]
+21:I[12397,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogCard"]
+22:I[44604,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Footer"]
+1b:["$","$L12",null,{"justify":"space-between","align":"center","pt":"6","borderTopWidth":"1px","borderColor":"rgba(255, 255, 255, 0.08)","mt":"10","wrap":"wrap","gap":"4","className":"blog-detail-module-scss-module__o_uq4a__footerActions","children":["$","$L1f",null,{"title":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps","url":"https://deep-muni.github.io/blog/stacked-prs-with-gitbutler-and-claude-code"}]}]
+1c:["$","$L20",null,{"as":"nav","columns":{"base":1,"md":2},"gap":"4","mt":"10","aria-label":"Blog navigation","children":[["$","$L13",null,{"href":"/blog/mastering-feature-flags-in-production","className":"blog-detail-module-scss-module__o_uq4a__paginationCard","children":[["$","$L15",null,{"fontFamily":"mono","fontSize":"xs","color":"cyan.400","textTransform":"uppercase","letterSpacing":"0.05em","mb":"1","children":"← Previous Blog"}],["$","$L15",null,{"fontSize":"sm","fontWeight":"semibold","color":"white","lineClamp":"2","children":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance"}]]}],null]}]
+1d:["$","$L10",null,{"mt":"14","className":"blog-detail-module-scss-module__o_uq4a__relatedSection","children":[["$","$L16",null,{"as":"h2","fontSize":"2xl","fontWeight":"bold","mb":"6","className":"blog-detail-module-scss-module__o_uq4a__relatedHeading","children":"Related Blogs"}],["$","$L20",null,{"columns":{"base":1,"md":2},"gap":"6","children":[["$","$L21","mastering-feature-flags-in-production",{"blog":{"id":"mastering-feature-flags-in-production","title":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance","excerpt":"A practical guide on architecting feature flag systems across Local, Dev, and Prod environments, including clean-up strategies to prevent technical debt.","publishedDate":"2026-08-01","updatedDate":"$undefined","readingTime":"9 min read","tags":["Architecture","DevOps","Feature Flags","GrowthBook","Flipt","System Design","Backend"],"coverImageUrl":"/images/blogs/feature-flags-architecture.svg","coverImageAlt":"Feature Flag Lifecycle and System Architecture Diagram","featured":true,"author":{"name":"Deep Muni","role":"Senior Software Engineer"},"canonicalUrl":"$undefined"},"index":0}]]}]]}]
+1e:["$","$L22",null,{}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[27451,["/_next/static/chunks/3mu1lmqnnnu08.js"],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps | Deep Muni"}],["$","meta","1",{"name":"description","content":"How to break down large features into reviewable stacked PRs using Claude Code spec slicing, GitButler virtual branches, and a manual merge cascade in Azure DevOps."}],["$","meta","2",{"name":"author","content":"Deep Muni"}],["$","meta","3",{"name":"keywords","content":"Deep Muni,Senior Software Developer,Full Stack Engineer,Software Craftsperson,TypeScript,React,Next.js,Node.js,Java,Spring Boot,Microservices,Distributed Systems,AI Agent Workflows,System Design,Portfolio"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://deep-muni.github.io/blog/stacked-prs-with-gitbutler-and-claude-code"}],["$","meta","6",{"property":"og:title","content":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps | Deep Muni"}],["$","meta","7",{"property":"og:description","content":"How to break down large features into reviewable stacked PRs using Claude Code spec slicing, GitButler virtual branches, and a manual merge cascade in Azure DevOps."}],["$","meta","8",{"property":"og:url","content":"https://deep-muni.github.io/blog/stacked-prs-with-gitbutler-and-claude-code"}],["$","meta","9",{"property":"og:image","content":"https://deep-muni.github.io/images/blogs/gitbutler-stacked-prs-architecture.svg"}],["$","meta","10",{"property":"og:image:alt","content":"Stacked PRs with GitButler and Claude Code Architecture Diagram"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"property":"article:published_time","content":"2026-08-22"}],["$","meta","13",{"property":"article:author","content":"Deep Muni"}],["$","meta","14",{"property":"article:tag","content":"Git"}],["$","meta","15",{"property":"article:tag","content":"GitButler"}],["$","meta","16",{"property":"article:tag","content":"Claude Code"}],["$","meta","17",{"property":"article:tag","content":"Azure DevOps"}],["$","meta","18",{"property":"article:tag","content":"DevOps"}],["$","meta","19",{"property":"article:tag","content":"Code Review"}],["$","meta","20",{"property":"article:tag","content":"Productivity"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:title","content":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps"}],["$","meta","23",{"name":"twitter:description","content":"How to break down large features into reviewable stacked PRs using Claude Code spec slicing, GitButler virtual branches, and a manual merge cascade in Azure DevOps."}],["$","meta","24",{"name":"twitter:image","content":"https://deep-muni.github.io/images/blogs/gitbutler-stacked-prs-architecture.svg"}],["$","link","25",{"rel":"icon","href":"/icon?7115189356ea2d09","alt":"$undefined","type":"image/png","sizes":"64x64"}],["$","$L23","26",{}]]

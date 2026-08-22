@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%" style="background:#09090f;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bgGlow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#7928ca" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#09090f" stop-opacity="1" />
+    </radialGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#0070f3" />
+    </linearGradient>
+
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="amberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.035)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="675" fill="#09090f" />
+  <rect width="1200" height="675" fill="url(#bgGlow)" />
+  <rect width="1200" height="675" fill="url(#grid)" />
+
+  <!-- Header / Subtitle -->
+  <g transform="translate(80, 50)">
+    <rect x="0" y="0" width="170" height="28" rx="14" fill="rgba(0, 212, 255, 0.1)" stroke="rgba(0, 212, 255, 0.3)" />
+    <text x="14" y="18" fill="#00d4ff" font-size="12" font-weight="600" letter-spacing="1">SYSTEM ARCHITECTURE</text>
+    <text x="0" y="62" fill="#ffffff" font-size="28" font-weight="800" letter-spacing="-0.5">Feature Flag Evaluation &amp; Lifecycle Engine</text>
+    <text x="0" y="88" fill="rgba(255, 255, 255, 0.55)" font-size="14">Decoupling Deployments from Releases | Local vs Dev vs Prod Matrix</text>
+  </g>
+
+  <!-- Control Plane (Left Card) -->
+  <g transform="translate(80, 180)">
+    <rect width="320" height="420" rx="16" fill="#10101a" stroke="rgba(0, 212, 255, 0.25)" stroke-width="1.5" />
+    <rect width="320" height="50" rx="16" fill="rgba(0, 212, 255, 0.05)" />
+    <circle cx="30" cy="25" r="5" fill="#ef4444" />
+    <circle cx="45" cy="25" r="5" fill="#f59e0b" />
+    <circle cx="60" cy="25" r="5" fill="#10b981" />
+    <text x="85" y="30" fill="#ffffff" font-size="14" font-weight="700">Flag Control Plane</text>
+
+    <!-- Sub-tools -->
+    <g transform="translate(24, 75)">
+      <rect width="272" height="60" rx="10" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" />
+      <text x="16" y="26" fill="#00d4ff" font-size="13" font-weight="700">GrowthBook / Flipt</text>
+      <text x="16" y="46" fill="rgba(255, 255, 255, 0.5)" font-size="11">Targeting Rules | User Attributes | A/B</text>
+    </g>
+
+    <g transform="translate(24, 150)">
+      <rect width="272" height="60" rx="10" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(168, 85, 247, 0.3)" />
+      <text x="16" y="26" fill="#a855f7" font-size="13" font-weight="700">Custom Admin Panel</text>
+      <text x="16" y="46" fill="rgba(255, 255, 255, 0.5)" font-size="11">Internal Kill-Switch &amp; Config Hub</text>
+    </g>
+
+    <g transform="translate(24, 225)">
+      <rect width="272" height="75" rx="10" fill="rgba(0, 0, 0, 0.4)" stroke="rgba(255, 255, 255, 0.06)" />
+      <text x="16" y="24" fill="rgba(255, 255, 255, 0.8)" font-size="12" font-weight="600">Dynamic Rule Payload</text>
+      <text x="16" y="44" fill="#10b981" font-size="11">flagKey: "new-billing-v2"</text>
+      <text x="16" y="60" fill="#f59e0b" font-size="11">status: "active" | target: "beta_users"</text>
+    </g>
+
+    <g transform="translate(24, 320)">
+      <rect width="272" height="65" rx="10" fill="rgba(239, 68, 68, 0.06)" stroke="rgba(239, 68, 68, 0.2)" />
+      <text x="16" y="26" fill="#ef4444" font-size="12" font-weight="700">Stale Flag Cleanup</text>
+      <text x="16" y="46" fill="rgba(255, 255, 255, 0.5)" font-size="11">Archive &amp; delete after full release</text>
+    </g>
+  </g>
+
+  <!-- Connectors from Control Plane to Environments -->
+  <path d="M 400 320 L 480 320" stroke="url(#neonCyan)" stroke-width="2" stroke-dasharray="6,4" />
+  <circle cx="480" cy="320" r="4" fill="#00d4ff" filter="url(#neonGlow)" />
+
+  <!-- Environment Matrix (Center/Right Cards) -->
+  <g transform="translate(480, 180)">
+    <!-- Local Env -->
+    <g transform="translate(0, 0)">
+      <rect width="640" height="120" rx="14" fill="#12121e" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <rect x="0" y="0" width="8" height="120" rx="4" fill="#3b82f6" />
+      <text x="28" y="32" fill="#3b82f6" font-size="15" font-weight="700">LOCAL DEV ENVIRONMENT</text>
+      <rect x="28" y="48" width="130" height="24" rx="6" fill="rgba(59, 130, 246, 0.12)" />
+      <text x="36" y="64" fill="#93c5fd" font-size="11" font-weight="600">Static Mock / Override</text>
+      <text x="28" y="98" fill="rgba(255, 255, 255, 0.65)" font-size="13">Zero network calls | Instant developer iteration via local JSON or query param</text>
+    </g>
+
+    <!-- Staging / Dev Env -->
+    <g transform="translate(0, 145)">
+      <rect width="640" height="120" rx="14" fill="#12121e" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+      <rect x="0" y="0" width="8" height="120" rx="4" fill="#f59e0b" />
+      <text x="28" y="32" fill="#f59e0b" font-size="15" font-weight="700">DEV / STAGING ENVIRONMENT</text>
+      <rect x="28" y="48" width="150" height="24" rx="6" fill="rgba(245, 158, 11, 0.12)" />
+      <text x="36" y="64" fill="#fde68a" font-size="11" font-weight="600">Dynamic QA Toggle Hub</text>
+      <text x="28" y="98" fill="rgba(255, 255, 255, 0.65)" font-size="13">Automated E2E testing matrix | Cross-team feature preview without branch blocking</text>
+    </g>
+
+    <!-- Production Env -->
+    <g transform="translate(0, 290)">
+      <rect width="640" height="130" rx="14" fill="#12121e" stroke="rgba(0, 212, 255, 0.3)" stroke-width="1.5" />
+      <rect x="0" y="0" width="8" height="130" rx="4" fill="#00d4ff" />
+      <text x="28" y="32" fill="#00d4ff" font-size="15" font-weight="700">PRODUCTION HIGH-SCALE CLUSTER</text>
+      <rect x="28" y="48" width="170" height="24" rx="6" fill="rgba(0, 212, 255, 0.12)" />
+      <text x="36" y="64" fill="#38bdf8" font-size="11" font-weight="600">Edge In-Memory Evaluation</text>
+      <text x="28" y="96" fill="rgba(255, 255, 255, 0.65)" font-size="13">&lt; 1ms latency | Targeted Releases (Internal -> Beta -> All) | Instant Kill Switch</text>
+      <text x="28" y="116" fill="#10b981" font-size="12" font-weight="600">Blast radius contained to 0% downtime on fault detection</text>
+    </g>
+  </g>
+</svg>

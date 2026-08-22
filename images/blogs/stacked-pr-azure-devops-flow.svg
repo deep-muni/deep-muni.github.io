@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="100%" height="100%" style="background:#09090f;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;">
+  <defs>
+    <radialGradient id="flowGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#09090f" stop-opacity="1" />
+    </radialGradient>
+
+    <pattern id="flowGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="620" fill="#09090f" />
+  <rect width="1200" height="620" fill="url(#flowGlow)" />
+  <rect width="1200" height="620" fill="url(#flowGrid)" />
+
+  <!-- Title -->
+  <g transform="translate(60, 40)">
+    <text x="0" y="0" fill="#00d4ff" font-size="12" font-weight="700" letter-spacing="1.5">STACKED PR CASCADE IN AZURE DEVOPS</text>
+    <text x="0" y="32" fill="#ffffff" font-size="24" font-weight="800" letter-spacing="-0.5">Target Base Hierarchy and Merge Sequence</text>
+  </g>
+
+  <!-- Left: Monolithic PR Problem -->
+  <g transform="translate(60, 110)">
+    <rect width="380" height="460" rx="14" fill="#11111a" stroke="rgba(239, 68, 68, 0.3)" stroke-width="1.5" />
+    <rect width="380" height="44" rx="14" fill="rgba(239, 68, 68, 0.08)" />
+    <circle cx="24" cy="22" r="4.5" fill="#ef4444" />
+    <text x="40" y="27" fill="#fca5a5" font-size="13" font-weight="700">The Monolithic PR Anti-Pattern</text>
+
+    <g transform="translate(24, 65)">
+      <rect width="332" height="140" rx="10" fill="#09090f" stroke="rgba(255, 255, 255, 0.06)" />
+      <text x="16" y="30" fill="#ef4444" font-size="13" font-weight="700">1 Giant PR into main</text>
+      <text x="16" y="54" fill="rgba(255, 255, 255, 0.8)" font-size="12">+1,420 lines across 28 files</text>
+      <text x="16" y="78" fill="rgba(255, 255, 255, 0.45)" font-size="11">• Review fatigue: Reviewers skim through</text>
+      <text x="16" y="98" fill="rgba(255, 255, 255, 0.45)" font-size="11">• Blocked for days waiting for feedback</text>
+      <text x="16" y="118" fill="rgba(255, 255, 255, 0.45)" font-size="11">• Painful merge conflicts with main</text>
+    </g>
+
+    <g transform="translate(24, 230)">
+      <rect width="332" height="195" rx="10" fill="rgba(239, 68, 68, 0.04)" stroke="rgba(239, 68, 68, 0.15)" />
+      <text x="16" y="28" fill="#f87171" font-size="12" font-weight="700">Resulting Bottlenecks:</text>
+      <text x="16" y="56" fill="rgba(255, 255, 255, 0.65)" font-size="12">High risk of regressions slipping past</text>
+      <text x="16" y="80" fill="rgba(255, 255, 255, 0.65)" font-size="12">Delayed feedback on fundamental design</text>
+      <text x="16" y="104" fill="rgba(255, 255, 255, 0.65)" font-size="12">Context switching while waiting for approval</text>
+      <text x="16" y="145" fill="#ef4444" font-size="12" font-weight="600">Review Velocity: Stalled</text>
+    </g>
+  </g>
+
+  <!-- Right: Stacked PR Hierarchy in ADO -->
+  <g transform="translate(480, 110)">
+    <rect width="660" height="460" rx="14" fill="#11111a" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1.5" />
+    <rect width="660" height="44" rx="14" fill="rgba(16, 185, 129, 0.08)" />
+    <circle cx="24" cy="22" r="4.5" fill="#10b981" />
+    <text x="40" y="27" fill="#a7f3d0" font-size="13" font-weight="700">Stacked PR Chain in Azure DevOps</text>
+
+    <!-- Stack Step 1 -->
+    <g transform="translate(24, 65)">
+      <rect width="612" height="78" rx="10" fill="#09090f" stroke="rgba(16, 185, 129, 0.2)" />
+      <rect x="14" y="16" width="65" height="22" rx="4" fill="rgba(16, 185, 129, 0.15)" />
+      <text x="24" y="32" fill="#34d399" font-size="11" font-weight="700">PR 1</text>
+      <text x="90" y="32" fill="#ffffff" font-size="13" font-weight="700">feat/part-1-schemas</text>
+      <text x="320" y="32" fill="#38bdf8" font-size="12">Target Base: main</text>
+      <text x="480" y="32" fill="#10b981" font-size="11">+180 lines</text>
+      <text x="14" y="60" fill="rgba(255, 255, 255, 0.55)" font-size="11">Data contracts, TypeScript types, and database models</text>
+    </g>
+
+    <!-- Stack Step 2 -->
+    <g transform="translate(24, 155)">
+      <rect width="612" height="78" rx="10" fill="#09090f" stroke="rgba(56, 189, 248, 0.2)" />
+      <rect x="14" y="16" width="65" height="22" rx="4" fill="rgba(56, 189, 248, 0.15)" />
+      <text x="24" y="32" fill="#38bdf8" font-size="11" font-weight="700">PR 2</text>
+      <text x="90" y="32" fill="#ffffff" font-size="13" font-weight="700">feat/part-2-services</text>
+      <text x="320" y="32" fill="#38bdf8" font-size="12">Target Base: feat/part-1-schemas</text>
+      <text x="560" y="32" fill="#10b981" font-size="11">+240 lines</text>
+      <text x="14" y="60" fill="rgba(255, 255, 255, 0.55)" font-size="11">Core business domain logic and repository integration</text>
+    </g>
+
+    <!-- Stack Step 3 -->
+    <g transform="translate(24, 245)">
+      <rect width="612" height="78" rx="10" fill="#09090f" stroke="rgba(168, 85, 247, 0.2)" />
+      <rect x="14" y="16" width="65" height="22" rx="4" fill="rgba(168, 85, 247, 0.15)" />
+      <text x="24" y="32" fill="#c084fc" font-size="11" font-weight="700">PR 3</text>
+      <text x="90" y="32" fill="#ffffff" font-size="13" font-weight="700">feat/part-3-endpoints</text>
+      <text x="320" y="32" fill="#38bdf8" font-size="12">Target Base: feat/part-2-services</text>
+      <text x="560" y="32" fill="#10b981" font-size="11">+210 lines</text>
+      <text x="14" y="60" fill="rgba(255, 255, 255, 0.55)" font-size="11">API routes, controller validation, and integration tests</text>
+    </g>
+
+    <!-- Stack Step 4 -->
+    <g transform="translate(24, 335)">
+      <rect width="612" height="78" rx="10" fill="#09090f" stroke="rgba(245, 158, 11, 0.2)" />
+      <rect x="14" y="16" width="65" height="22" rx="4" fill="rgba(245, 158, 11, 0.15)" />
+      <text x="24" y="32" fill="#fbbf24" font-size="11" font-weight="700">PR 4</text>
+      <text x="90" y="32" fill="#ffffff" font-size="13" font-weight="700">feat/part-4-ui-wiring</text>
+      <text x="320" y="32" fill="#38bdf8" font-size="12">Target Base: feat/part-3-endpoints</text>
+      <text x="560" y="32" fill="#10b981" font-size="11">+230 lines</text>
+      <text x="14" y="60" fill="rgba(255, 255, 255, 0.55)" font-size="11">Frontend UI components and TanStack Query hook consumption</text>
+    </g>
+
+    <text x="24" y="440" fill="#10b981" font-size="12" font-weight="600">Merge Cascade: Merge PR 1 into main -> retarget PR 2 base to main -> repeat cleanly</text>
+  </g>
+</svg>

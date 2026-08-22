@@ -1,0 +1,229 @@
+1:"$Sreact.fragment"
+2:I[50898,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"AppQueryProvider"]
+3:I[99845,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"ChakraProvider"]
+4:I[47224,["/_next/static/chunks/3mu1lmqnnnu08.js"],"default"]
+5:I[97793,["/_next/static/chunks/3mu1lmqnnnu08.js"],"default"]
+7:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"ViewportBoundary"]
+d:I[17400,["/_next/static/chunks/3mu1lmqnnnu08.js"],"MetadataBoundary"]
+f:I[31953,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js"],"default",1]
+:HL["/_next/static/chunks/17k0j0q7xz_ww.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/motterdam-s.p.3cb6h9h5y59kx.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/chunks/172yomp04nu72.css","style"]
+:HL["/_next/static/chunks/1n1od0-sh9hjl.css","style"]
+a:X
+0:{"P":null,"c":["","blog","mastering-feature-flags-in-production"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["blogId","mastering-feature-flags-in-production","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17k0j0q7xz_ww.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2lqyh-z3b-acj.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1qfd5hjalpx2-.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_c15e96cb-module__0bjUvq__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable signaturefont_fafb9eb7-module__JH1FEa__variable","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/172yomp04nu72.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1n1od0-sh9hjl.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1ds0rq-k9b_ng.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3os7go8we-cxw.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/31o3y_ue9idcs.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17k0j0q7xz_ww.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qkSacUBbmEehj7f-iYup0"}
+10:I[75341,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Box"]
+11:I[91976,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Navbar"]
+12:I[14028,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Flex"]
+13:I[11219,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],""]
+14:I[60970,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"HStack"]
+15:I[6818,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Text"]
+16:I[82876,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Heading"]
+17:I[60302,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"SkillBadge"]
+18:I[80257,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Image"]
+19:I[29290,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogMarkdown"]
+a:C
+1a:T2925,
+## The Core Paradigm: Decoupling Deployment from Release
+
+In many software organizations, deploying software to production and releasing a feature to users are treated as the exact same event. This coupling creates high-stakes deployment windows, long-lived release branches that are painful to merge, and full-rollback scenarios whenever an edge case surfaces.
+
+Modern engineering teams eliminate this risk by separating the two concepts:
+
+1. **Deployment**: The operational process of building, testing, containerizing, and running new code on production infrastructure.
+2. **Release**: The runtime decision of exposing that new capability to specific users, targeted cohorts, or internal testers.
+
+Feature flags serve as the runtime control layer that makes this separation possible. When implemented correctly, feature flags enable continuous delivery, targeted rollouts, and instant operational kill switches that contain failures with zero downtime.
+
+![Feature Flag Lifecycle and Environment Matrix](/images/blogs/feature-flags-architecture.svg)
+
+---
+
+## Why and How We Use Feature Flags
+
+Feature flags are not just binary switches; they fall into distinct architectural categories with different lifespans and scopes:
+
+### 1. Release Flags (Short-Lived)
+Release toggles allow incomplete features to merge into the `main` branch continuously behind an inactive flag. When ready for production, exposure is expanded in phases:
+- **Internal Testing**: Engineers and internal team members test the feature live in production.
+- **Targeted Beta Users**: Specific customer accounts, organization IDs, or beta testers get early access.
+- **General Release**: Feature is enabled for all users after verifying stability and performance.
+
+### 2. Operational and Circuit Breaker Flags (Long-Lived)
+Operational flags act as dynamic kill switches for resource-heavy subsystems. If a downstream vendor API degrades or database CPU spikes, operators can instantly toggle off non-critical functionality (such as background recommendations or AI autocomplete) without restarting pods or rolling back releases.
+
+### 3. Permission and Entitlement Flags (Medium-to-Long Lived)
+Used to gate features based on enterprise tier, region, or organizational account status (for example, enterprise SSO or custom webhooks).
+
+### 4. Experimentation Flags (Medium-Lived)
+Flags that split user traffic across different feature variants to evaluate user behavior and system performance.
+
+---
+
+## The Environment Strategy: Local vs Dev vs Production
+
+Treating flag evaluations identically across all environments is a common mistake. Each layer of your development lifecycle demands a tailored evaluation strategy:
+
+| Dimension | Local Development | Dev / Staging | Production Cluster |
+| :--- | :--- | :--- | :--- |
+| **Primary Goal** | Fast developer iteration with zero external dependencies | QA test matrix and cross-team previews | Sub-millisecond latency and zero blast radius |
+| **Data Source** | Local JSON, environment variables, or URL overrides | Centralized toggle admin hub | In-memory edge cache with SSE push |
+| **Network Cost** | 0 ms (In-process resolution) | 5 to 20 ms (Shared dev service) | < 0.2 ms (In-memory local evaluation) |
+| **Blast Radius** | Isolated to single developer machine | Isolated to staging environment | Strictly gated by targeted user attributes or environment |
+
+### 1. Local Environment Strategy
+Local development should never depend on live production flag networks or external authentication credentials to run. Use deterministic local overrides:
+
+```typescript
+export function resolveLocalFeatureFlag(key: string, userContext?: UserContext): boolean {
+  if (process.env.NODE_ENV === 'development') {
+    const urlOverride = getQueryParamOverride(key);
+    if (urlOverride !== null) return urlOverride;
+
+    if (key in localFlagOverrides) {
+      return Boolean(localFlagOverrides[key]);
+    }
+  }
+  return false;
+}
+```
+
+### 2. Dev and Staging Environment Strategy
+In staging, QA engineers and automated tests need to evaluate both branches of the conditional logic. Integration test runners (Playwright, Cypress) can pass custom headers so end-to-end suites execute full regression matrices with flags explicitly turned ON and OFF.
+
+### 3. Production Environment Strategy: In-Memory Edge Evaluation
+In production, your request path must never make a blocking HTTP round-trip to an external flag service. Doing so adds unnecessary latency and introduces an external point of failure.
+
+Production SDKs maintain an in-memory rule engine that syncs rule sets via Server-Sent Events (SSE) or background polling. Evaluation happens locally against the in-memory payload in sub-millisecond time (`< 0.2ms`).
+
+---
+
+## Tooling: GrowthBook, Flipt, and Custom Admin Panels
+
+Having evaluated and managed feature flags across production systems, here is how the tooling stacks up for feature flag evaluation and control:
+
+### GrowthBook
+GrowthBook provides a clean, self-hostable control plane for managing feature flags:
+- Visual UI for defining flag targeting rules and user attribute conditions.
+- Client and server SDKs with in-memory caching and real-time streaming updates.
+- Useful for engineering teams wanting an intuitive interface for flag management without building one from scratch.
+
+### Flipt
+Flipt is an open-source, high-performance feature flag solution designed for microservices:
+- Built in Go with support for gRPC and OpenFeature standards.
+- Supports GitOps workflows where flag definitions can be stored directly in version control.
+- Well-suited for backend architectures needing lightweight, low-latency flag evaluation.
+
+### Custom In-House Admin Control Panel
+When working with bespoke multi-tenant enterprise systems, we frequently build a custom internal admin control panel:
+
+```
++----------------------------------------------------------+
+|              Custom Admin Control Plane                  |
+|  [Toggle: ON/OFF]  [Target: Beta Users]  [Kill-Switch]   |
++----------------------------+-----------------------------+
+                             | (Websocket / SSE Push)
+                             v
++----------------------------------------------------------+
+|          Distributed Redis / DynamoDB State              |
++----------------------------+-----------------------------+
+                             | (Cache Sync < 100ms)
+                             v
++----------------------------------------------------------+
+|    In-Memory Application SDK (Go / Node.js / React)      |
+|            Local Evaluation: < 0.2ms per req             |
++----------------------------------------------------------+
+```
+
+**Key architectural requirements for custom control panels:**
+1. **Audit Logs and RBAC**: Every toggle change must record who flipped the switch, why (linking to a Jira ticket or incident ID), and the exact previous state.
+2. **User Segmentation**: Filter flags by user attributes, email domains, or organization IDs.
+3. **Fail-Safe Defaults**: If the control plane or caching tier is unreachable, the system must fall back to a hardcoded default boolean without throwing runtime exceptions.
+
+---
+
+## Real-Time Dynamic Toggling: Visual Breakdown
+
+The diagram below illustrates how toggling a flag in the admin plane dynamically changes production execution flows and user experiences in real time without deployment:
+
+![Interactive Feature Flag Toggle Dynamics](/images/blogs/feature-toggle-visual.svg)
+
+### Code Implementation Example
+
+```typescript
+import { useFeatureFlag } from '@/data/hooks/flags';
+
+export function SearchExperience() {
+  const isAiAutocompleteEnabled = useFeatureFlag('enable_ai_autocomplete', {
+    defaultValue: false,
+  });
+
+  if (!isAiAutocompleteEnabled) {
+    return <StandardSearchInput placeholder="Search catalog..." />;
+  }
+
+  return <AIStreamingSearchInput model="gemini-flash" autoSuggest={true} />;
+}
+```
+
+---
+
+## Governance: When to Use Flags vs When NOT to Use Them
+
+Feature flags introduce conditional complexity. Unchecked usage turns a clean codebase into a tangled maze of dead branches.
+
+### When to Use Feature Flags
+- **High-Risk Architectural Refactors**: Migrating an ORM, database driver, or payment provider behind a shadow-read flag.
+- **New Product Features**: Major user-facing changes requiring phased rollout or marketing launch coordination.
+- **Operational Kill Switches**: Protecting microservices against downstream API rate limits during traffic surges.
+
+### When NOT to Use Feature Flags
+- **Security and Authorization**: Feature flags are runtime toggles, not access control mechanisms. Use proper Role-Based Access Control (RBAC) and OAuth scopes for security gating.
+- **Trivial Bug Fixes**: A simple bug fix should be tested, reviewed, and merged directly to trunk. Wrapping it in a flag creates unnecessary overhead.
+- **Permanent Application Configuration**: Database connection strings, API URLs, and cluster thread pool sizes belong in environment variables or configuration stores, not feature flags.
+
+---
+
+## The Clean-Up Playbook: How to Eliminate Stale Flags
+
+The primary risk of feature flags is accumulated technical debt. When a feature is fully turned ON and verified stable in production, the flag must be permanently removed.
+
+```
+[Flag Created] -> [Beta Testing] -> [Live & Stable in Prod] -> [Cleanup Task] -> [PR Deleting Flag & Dead Code]
+```
+
+### Decommissioning Process
+
+1. **Track Flag Status**: Keep an inventory of active flags across teams.
+2. **Schedule Cleanup After Full Release**: Once a feature is fully released with no production issues, create a follow-up task to retire the flag.
+3. **The Cleanup Pull Request**:
+   - Remove the `if/else` conditional logic from the application.
+   - Delete the legacy code path and all associated dead helper functions.
+   - Delete obsolete test cases that specifically validated the inactive flag branch.
+4. **Decommission in Control Plane**: Archive the flag in GrowthBook, Flipt, or your custom admin panel to keep the configuration store clean.
+
+---
+
+## Core Rules for Production Flags
+
+- **Decoupled Deployments**: Ship code to production multiple times a day behind inactive flags.
+- **Sub-Millisecond Evaluation**: Ensure production evaluations run in-memory without blocking network hops.
+- **Local Mocks**: Provide zero-dependency local overrides for developer velocity.
+- **Strict Clean-Up Policy**: Treat stale flags as technical debt and delete `if/else` branches once features are fully released and stable in production.
+6:["$","$L10",null,{"minH":"100vh","children":[["$","$L11",null,{}],["$","$L10",null,{"as":"main","minH":"80vh","pt":"20","pb":"16","children":["$","$L10",null,{"as":"div","maxW":"4xl","mx":"auto","px":{"base":"5","md":"8","lg":"12"},"w":"100%","className":"$undefined","children":["$","article",null,{"className":"blog-detail-module-scss-module__o_uq4a__blogContainer","children":[["$","$L12",null,{"justify":"flex-start","align":"center","mb":"8","className":"blog-detail-module-scss-module__o_uq4a__topBar","children":["$","$L13",null,{"href":"/blog","className":"blog-detail-module-scss-module__o_uq4a__backNav","children":[["$","svg",null,{"width":"16","height":"16","viewBox":"0 0 16 16","fill":"currentColor","children":["$","path",null,{"d":"M11.03 1.97a.75.75 0 0 1 0 1.06L5.56 8.5l5.47 5.47a.75.75 0 0 1-1.06 1.06l-6-6a.75.75 0 0 1 1.06 0z"}]}],"Back to all blogs"]}]}],["$","$L10",null,{"as":"header","className":"blog-detail-module-scss-module__o_uq4a__header","children":[["$","$L14",null,{"gap":"3","fontFamily":"mono","fontSize":"xs","className":"blog-detail-module-scss-module__o_uq4a__metaRow","wrap":"wrap","children":[["$","$L15",null,{"children":["Published on ","2026-08-01"]}],["$","$L15",null,{"color":"gray.600","children":"•"}],["$","$L15",null,{"className":"blog-detail-module-scss-module__o_uq4a__readingTime","children":"9 min read"}]]}],["$","$L16",null,{"as":"h1","fontSize":{"base":"2xl","md":"4xl","lg":"5xl"},"fontWeight":"800","lineHeight":"1.25","letterSpacing":"-0.025em","className":"blog-detail-module-scss-module__o_uq4a__title","children":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance"}],["$","$L15",null,{"fontSize":{"base":"md","md":"lg"},"lineHeight":"1.6","className":"blog-detail-module-scss-module__o_uq4a__excerpt","children":"A practical guide on architecting feature flag systems across Local, Dev, and Prod environments, including clean-up strategies to prevent technical debt."}],["$","$L12",null,{"wrap":"wrap","gap":"2","className":"blog-detail-module-scss-module__o_uq4a__tags","children":[["$","$L17","Architecture",{"name":"Architecture"}],["$","$L17","DevOps",{"name":"DevOps"}],["$","$L17","Feature Flags",{"name":"Feature Flags"}],["$","$L17","GrowthBook",{"name":"GrowthBook"}],["$","$L17","Flipt",{"name":"Flipt"}],["$","$L17","System Design",{"name":"System Design"}],["$","$L17","Backend",{"name":"Backend"}]]}],["$","$L12",null,{"align":"center","gap":"3","className":"blog-detail-module-scss-module__o_uq4a__authorCard","children":[["$","$L12",null,{"w":"10","h":"10","borderRadius":"full","align":"center","justify":"center","fontWeight":"bold","fontFamily":"mono","fontSize":"sm","flexShrink":0,"className":"blog-detail-module-scss-module__o_uq4a__avatar","children":"DM"}],["$","$L10",null,{"className":"blog-detail-module-scss-module__o_uq4a__authorInfo","children":[["$","$L15",null,{"fontWeight":"semibold","fontSize":"sm","className":"blog-detail-module-scss-module__o_uq4a__authorName","children":"Deep Muni"}],["$","$L15",null,{"fontSize":"xs","fontFamily":"mono","className":"blog-detail-module-scss-module__o_uq4a__authorRole","children":"Senior Software Engineer"}]]}]]}]]}],["$","$L10",null,{"className":"blog-detail-module-scss-module__o_uq4a__coverImageWrapper","mb":"10","borderRadius":"2xl","overflow":"hidden","children":["$","$L18",null,{"src":"/images/blogs/feature-flags-architecture.svg","alt":"Feature Flag Lifecycle and System Architecture Diagram","width":900,"height":506,"priority":true,"unoptimized":true}]}],["$","$L10",null,{"mb":"12","children":["$","$L19",null,{"content":"$1a"}]}],"$L1b","$L1c","$L1d"]}]}]}],"$L1e"]}]
+1f:I[17222,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogShare"]
+20:I[33159,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"SimpleGrid"]
+21:I[12397,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"BlogCard"]
+22:I[44604,["/_next/static/chunks/2lqyh-z3b-acj.js","/_next/static/chunks/1qfd5hjalpx2-.js","/_next/static/chunks/1ds0rq-k9b_ng.js","/_next/static/chunks/3os7go8we-cxw.js","/_next/static/chunks/31o3y_ue9idcs.js"],"Footer"]
+1b:["$","$L12",null,{"justify":"space-between","align":"center","pt":"6","borderTopWidth":"1px","borderColor":"rgba(255, 255, 255, 0.08)","mt":"10","wrap":"wrap","gap":"4","className":"blog-detail-module-scss-module__o_uq4a__footerActions","children":["$","$L1f",null,{"title":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance","url":"https://deep-muni.github.io/blog/mastering-feature-flags-in-production"}]}]
+1c:["$","$L20",null,{"as":"nav","columns":{"base":1,"md":2},"gap":"4","mt":"10","aria-label":"Blog navigation","children":[["$","$L10",null,{}],["$","$L13",null,{"href":"/blog/stacked-prs-with-gitbutler-and-claude-code","className":"blog-detail-module-scss-module__o_uq4a__paginationCard blog-detail-module-scss-module__o_uq4a__next","style":{"textAlign":"right"},"children":[["$","$L15",null,{"fontFamily":"mono","fontSize":"xs","color":"cyan.400","textTransform":"uppercase","letterSpacing":"0.05em","mb":"1","children":"Next Blog →"}],["$","$L15",null,{"fontSize":"sm","fontWeight":"semibold","color":"white","lineClamp":"2","children":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps"}]]}]]}]
+1d:["$","$L10",null,{"mt":"14","className":"blog-detail-module-scss-module__o_uq4a__relatedSection","children":[["$","$L16",null,{"as":"h2","fontSize":"2xl","fontWeight":"bold","mb":"6","className":"blog-detail-module-scss-module__o_uq4a__relatedHeading","children":"Related Blogs"}],["$","$L20",null,{"columns":{"base":1,"md":2},"gap":"6","children":[["$","$L21","stacked-prs-with-gitbutler-and-claude-code",{"blog":{"id":"stacked-prs-with-gitbutler-and-claude-code","title":"Shipping Complex Features with Stacked PRs: GitButler, Claude Code, and Azure DevOps","excerpt":"How to break down large features into reviewable stacked PRs using Claude Code spec slicing, GitButler virtual branches, and a manual merge cascade in Azure DevOps.","publishedDate":"2026-08-22","updatedDate":"$undefined","readingTime":"11 min read","tags":["Git","GitButler","Claude Code","Azure DevOps","DevOps","Code Review","Productivity"],"coverImageUrl":"/images/blogs/gitbutler-stacked-prs-architecture.svg","coverImageAlt":"Stacked PRs with GitButler and Claude Code Architecture Diagram","featured":true,"author":{"name":"Deep Muni","role":"Senior Software Engineer"},"canonicalUrl":"$undefined"},"index":0}]]}]]}]
+1e:["$","$L22",null,{}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[27451,["/_next/static/chunks/3mu1lmqnnnu08.js"],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance | Deep Muni"}],["$","meta","1",{"name":"description","content":"A practical guide on architecting feature flag systems across Local, Dev, and Prod environments, including clean-up strategies to prevent technical debt."}],["$","meta","2",{"name":"author","content":"Deep Muni"}],["$","meta","3",{"name":"keywords","content":"Deep Muni,Senior Software Developer,Full Stack Engineer,Software Craftsperson,TypeScript,React,Next.js,Node.js,Java,Spring Boot,Microservices,Distributed Systems,AI Agent Workflows,System Design,Portfolio"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://deep-muni.github.io/blog/mastering-feature-flags-in-production"}],["$","meta","6",{"property":"og:title","content":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance | Deep Muni"}],["$","meta","7",{"property":"og:description","content":"A practical guide on architecting feature flag systems across Local, Dev, and Prod environments, including clean-up strategies to prevent technical debt."}],["$","meta","8",{"property":"og:url","content":"https://deep-muni.github.io/blog/mastering-feature-flags-in-production"}],["$","meta","9",{"property":"og:image","content":"https://deep-muni.github.io/images/blogs/feature-flags-architecture.svg"}],["$","meta","10",{"property":"og:image:alt","content":"Feature Flag Lifecycle and System Architecture Diagram"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"property":"article:published_time","content":"2026-08-01"}],["$","meta","13",{"property":"article:author","content":"Deep Muni"}],["$","meta","14",{"property":"article:tag","content":"Architecture"}],["$","meta","15",{"property":"article:tag","content":"DevOps"}],["$","meta","16",{"property":"article:tag","content":"Feature Flags"}],["$","meta","17",{"property":"article:tag","content":"GrowthBook"}],["$","meta","18",{"property":"article:tag","content":"Flipt"}],["$","meta","19",{"property":"article:tag","content":"System Design"}],["$","meta","20",{"property":"article:tag","content":"Backend"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:title","content":"Mastering Feature Flags in Production: Strategy, Tooling, and Lifecycle Governance"}],["$","meta","23",{"name":"twitter:description","content":"A practical guide on architecting feature flag systems across Local, Dev, and Prod environments, including clean-up strategies to prevent technical debt."}],["$","meta","24",{"name":"twitter:image","content":"https://deep-muni.github.io/images/blogs/feature-flags-architecture.svg"}],["$","link","25",{"rel":"icon","href":"/icon?7115189356ea2d09","alt":"$undefined","type":"image/png","sizes":"64x64"}],["$","$L23","26",{}]]
